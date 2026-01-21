@@ -1,11 +1,11 @@
-# Azure Image Analysis – Computer Vision with Python
+Azure Image Analysis – Computer Vision with Python
 
 Projeto de Visão Computacional utilizando **Azure AI Vision** para análise automática de imagens.  
 A aplicação identifica elementos visuais, gera descrições e detecta objetos e pessoas em imagens reais.
 
 ---
 
-## 📌 Visão Geral
+ Visão Geral
 
 Este projeto demonstra o uso prático de Inteligência Artificial aplicada à análise de imagens, utilizando:
 
@@ -17,8 +17,7 @@ Este projeto demonstra o uso prático de Inteligência Artificial aplicada à an
 O sistema foi desenvolvido como parte do meu portfólio técnico em **IA, Cloud e Engenharia de Software**.
 
 ---
-
-## 🚀 Funcionalidades
+Funcionalidades
 
 - Geração automática de legendas para imagens  
 - Identificação de elementos visuais (tags)  
@@ -28,7 +27,7 @@ O sistema foi desenvolvido como parte do meu portfólio técnico em **IA, Cloud 
 
 ---
 
-## 🧠 Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 - Python 3.11  
 - Azure AI Vision (Computer Vision API)  
@@ -37,7 +36,7 @@ O sistema foi desenvolvido como parte do meu portfólio técnico em **IA, Cloud 
 
 ---
 
-## 🗂 Estrutura do Projeto
+Estrutura do Projeto
 
 azure-image-analysis/  
 ├── image-analysis.py  
@@ -49,7 +48,7 @@ azure-image-analysis/
 
 ---
 
-## ▶️ Execução do Projeto
+Execução do Projeto
 
 Execute o script passando o caminho da imagem:
 
@@ -58,7 +57,7 @@ python image-analysis.py images/person.jpg
 
 ---
 
-## 📊 Resultados
+Resultados
 
 O sistema retorna no terminal:
 
@@ -76,7 +75,7 @@ Esses arquivos mostram graficamente os objetos e pessoas detectados pela IA.
 
 ---
 
-## 🎯 Objetivo do Projeto
+Objetivo do Projeto
 
 Demonstrar habilidades práticas em:
 
@@ -88,7 +87,7 @@ Demonstrar habilidades práticas em:
 
 ---
 
-## 👨‍💻 Autor
+Autor
 
 Thiago Duarte  
 Estudante de Engenharia de Software  
@@ -97,3 +96,7 @@ Foco em Python, IA e Cloud Computing
 GitHub: https://github.com/tthiagoduarte  
 
 ---
+
+Licença
+
+Projeto desenvolvido para fins educacionais e demonstração de competências técnicas.
