@@ -1,34 +1,99 @@
-# Azure AI Vision - Image Analysis
+# Azure Image Analysis – Computer Vision with Python
 
-Este projeto utiliza o **Azure AI Vision** para analisar imagens e detectar:
+Projeto de Visão Computacional utilizando **Azure AI Vision** para análise automática de imagens.  
+A aplicação identifica elementos visuais, gera descrições e detecta objetos e pessoas em imagens reais.
 
-- Legendas automáticas (Captions)
-- Tags descritivas
-- Objetos na imagem
-- Pessoas com caixas delimitadoras
+---
 
-## 🛠 Tecnologias usadas
+## 📌 Visão Geral
 
-- Python 3
-- Azure AI Vision
-- Azure SDK
-- Pillow (PIL)
-- python-dotenv
+Este projeto demonstra o uso prático de Inteligência Artificial aplicada à análise de imagens, utilizando:
 
-## 📸 Exemplos
+- Serviços de IA na nuvem (Azure AI Vision)
+- Integração com Python
+- Processamento e anotação visual de imagens
+- Detecção automática de pessoas e objetos
 
-### Detecção de objetos
-![Building](examples/building_objects.jpg)
+O sistema foi desenvolvido como parte do meu portfólio técnico em **IA, Cloud e Engenharia de Software**.
 
-### Detecção de pessoas
-![Person](examples/person_people.jpg)
+---
 
-## ⚙️ Configuração
+## 🚀 Funcionalidades
 
-1. Crie um recurso **Azure AI Vision**
-2. Copie o **Endpoint** e a **Key**
-3. Crie um arquivo `.env` baseado no `.env.example`
+- Geração automática de legendas para imagens  
+- Identificação de elementos visuais (tags)  
+- Detecção de objetos  
+- Detecção de pessoas  
+- Criação de imagens com marcações visuais (bounding boxes)  
 
-```env
-VISION_ENDPOINT=SEU_ENDPOINT
-VISION_KEY=SUA_CHAVE
+---
+
+## 🧠 Tecnologias Utilizadas
+
+- Python 3.11  
+- Azure AI Vision (Computer Vision API)  
+- Pillow (processamento de imagens)  
+- Git & GitHub  
+
+---
+
+## 🗂 Estrutura do Projeto
+
+azure-image-analysis/  
+├── image-analysis.py  
+├── requirements.txt  
+├── README.md  
+├── images/  
+│   ├── building.jpg  
+│   └── person.jpg  
+
+---
+
+## ▶️ Execução do Projeto
+
+Execute o script passando o caminho da imagem:
+
+python image-analysis.py images/building.jpg  
+python image-analysis.py images/person.jpg  
+
+---
+
+## 📊 Resultados
+
+O sistema retorna no terminal:
+
+- Descrição da imagem  
+- Elementos identificados  
+- Objetos detectados  
+- Pessoas detectadas  
+
+Além disso, gera imagens com marcações visuais:
+
+- objects.jpg  
+- people.jpg  
+
+Esses arquivos mostram graficamente os objetos e pessoas detectados pela IA.
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Demonstrar habilidades práticas em:
+
+- Integração com serviços de IA em nuvem  
+- Desenvolvimento em Python  
+- Visão Computacional  
+- Uso de APIs de Inteligência Artificial  
+- Estruturação de projetos para portfólio  
+
+---
+
+## 👨‍💻 Autor
+
+Thiago Duarte  
+Estudante de Engenharia de Software  
+Foco em Python, IA e Cloud Computing  
+
+GitHub: https://github.com/tthiagoduarte  
+
+---
