@@ -92,11 +92,6 @@ Autor
 Thiago Duarte  
 Estudante de Engenharia de Software  
 Foco em Python, IA e Cloud Computing  
+ 
 
-GitHub: https://github.com/tthiagoduarte  
 
----
-
-Licença
-
-Projeto desenvolvido para fins educacionais e demonstração de competências técnicas.
